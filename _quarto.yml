@@ -8,7 +8,7 @@ resources:
 website:
   title: "Lume Spaces"
   site-url: "https://aelmokadem.github.io/lumespace"
-  favicon: "img/favicon3.png"
+  favicon: "img/logo-mini.jpg"
   navbar:
     left:
       - href: index.qmd
