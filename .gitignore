@@ -120,3 +120,7 @@ coverage.*
 listings.json
 search.json
 sitemap.xml
+
+# Local content directories (keep out of repo if you want to manage them locally)
+posts/
+papers/
