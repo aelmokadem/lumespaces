@@ -16,10 +16,6 @@ website:
       #- about.qmd
       - href: gallery
         text: Gallery
-      #- href: posts
-      #  text: Blog
-      #- href: books
-      #  text: Books
   page-footer:
     left: "(c) Lume Spaces, 2025–. [Disclaimer](disclaimer)"
   # comments:
