@@ -1,0 +1,122 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails and Windows
+Thumbs.db
+Desktop.ini
+
+# Logs
+*.log
+
+# OS generated files
+ehthumbs.db
+Icon?
+
+# Editor directories and files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Node/npm
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+dist/
+build/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.env
+.env.*
+venv/
+venv*/
+ENV/
+.envrc
+pip-wheel-metadata/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints
+
+# R / RStudio
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+.Rproj
+.Renviron
+.Renviron.local
+.Rprofile
+.Rbuildignore
+
+# Quarto / knitr / Pandoc / bookdown caches and generated files
+.quarto/
+_quarto_cache/
+_cache/
+_cache/**
+_site/
+_book/
+*_cache/
+*_files/
+*_cache/**
+*_files/**
+
+# If you use quarto publish or render outputs in a specific folder (e.g. "docs/") keep that folder tracked.
+# Common generated site folders (adjust if you commit them):
+# docs/
+
+# LaTeX intermediate files
+*.aux
+*.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Binary and media caches
+*.mp4
+*.mov
+*.avi
+*.mkv
+
+# Certificates, keys, credentials
+*.pem
+*.key
+*.crt
+*.asc
+
+# Coverage and test reports
+coverage/
+htmlcov/
+coverage.*
+
+# Packaging
+*.lock
+
+# Temporary files
+*~
+*.swp
+.*.swp
+
+# Ignore OS X Finder tags
+._*
+
+# Ignore generated search/index files
+listings.json
+search.json
+sitemap.xml

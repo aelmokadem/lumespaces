@@ -1,0 +1,47 @@
+project:
+  type: website
+  output-dir: docs
+
+resources:
+  - CNAME
+
+website:
+  title: "Lume Spaces"
+  site-url: "https://aelmokadem.github.io/lumespace"
+  favicon: "img/favicon3.png"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      #- about.qmd
+      - href: gallery
+        text: Gallery
+      #- href: posts
+      #  text: Blog
+      #- href: books
+      #  text: Books
+  page-footer:
+    left: "(c) Lume Spaces, 2025–. [Disclaimer](disclaimer)"
+  # comments:
+  #   giscus:
+  #     #repo: quarto-dev/quarto-web
+  #     repo: aelmokadem/aelmokadem
+  # margin-header: subscribe.html
+
+format:
+  html:
+    theme:
+      #- cosmo
+      #- cerulean
+      - flatly
+      #- minty
+      #- sketchy
+      #- spacelab
+      #- morph
+      - brand
+    #include-after-body:
+      #- subscribe.html   # path relative to the project root
+    css: styles.css
+    toc: true
+
+csl: assets/diabetologia.csl

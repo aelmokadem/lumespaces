@@ -1,0 +1,69 @@
+---
+title: "Lume Spaces"
+about:
+    template: trestles
+    links:
+        - icon: linkedin
+          url: https://www.linkedin.com/in/ahmed-elmokadem-87b01875/
+        - icon: github
+          url: https://github.com/aelmokadem 
+        - text: "{{< ai orcid >}}"
+          url: https://orcid.org/0000-0002-2412-4986   
+        - text: "{{< ai google-scholar >}}"
+          url: https://scholar.google.com/citations?user=1tqhtzMAAAAJ&hl=en 
+        - text: "{{< fa envelope >}}"
+          url: mailto:aelmokadem.pmx@gmail.com
+#image: img/my-photo.png
+#image: img/Ahmed_ACoP.webp
+image: img/PHOTO-2025-10-04-21-46-07.jpg
+image-shape: round
+---
+
+## About LUME SPACES
+
+**Creating harmony, one space at a time.**
+
+At Lume Spaces, we believe that true beauty lives in balance between light and texture, warmth and minimalism, form and feeling.
+Our mission is to craft spaces that reflect quiet luxury, timeless elegance, and the individuality of those who live within them.
+
+Founded in Connecticut, Lume Spaces serves clients who appreciate design as an art form, not decoration but transformation.
+Whether preparing a home for market or reimagining a private residence, we bring the same attention to detail, refined palette, and understated sophistication that define our work.
+
+
+
+
+## Our Approach
+
+Every project begins with a simple question:
+How do you want your space to make you feel?
+
+From there, we design with purpose, balancing light, flow, and emotion to create interiors that are as functional as they are graceful.
+Each detail is chosen with intention. Each space tells a story.
+
+
+
+
+## What Defines LUME SPACES
+
+Refined simplicity: luxury expressed through calm and clarity.
+
+Thoughtful design: each choice serves a purpose, both aesthetic and emotional.
+
+Timeless materials: stone, linen, natural wood, and subtle metallics.
+
+Personal connection: we collaborate closely with clients to bring their vision to life.
+
+
+## Meet the Founder
+
+Driven by a deep appreciation for art, texture, and the psychology of space, Lume Spaces was born from a belief that our surroundings shape how we feel, think, and live.
+Our founder brings an eye for modern elegance, blending transitional design with warm minimalism to create interiors that feel both elevated and inviting.
+
+
+
+
+## Our Promise
+
+To deliver not just beautiful rooms but experiences of calm sophistication.
+Because when light meets intention, a house becomes a story, and that story begins with Lume.
+

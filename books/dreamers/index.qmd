@@ -1,0 +1,23 @@
+---
+categories:
+- FANTASY
+- SCIFI
+date: last-modified
+description: The novel revolves around Sol, who lives in a Post-Disaster world that nearly wiped out all life on Earth. This world is overseen by "The Savior," sent by the Deity to save the remaining humans from their fate and eradicate evil from the world. Sol, like the other obedient servants of the deity, worked tirelessly, awaiting his reward in the "Houses of Rest." But then came the dream... A strange dream that turned his life upside down and set Sol on the path of his journey into the unknown world beyond the city borders to discover his true self and the truth about "The Dreamers." This fantasy novel raises many important questions that come to life in Sol's adventurous journey and the choices he makes. What is reality? Is it separate from our selves or deeply connected to them? What is truth and what is falsehood? When do we become free, and when do we turn into mere slaves? And where do the boundaries of humanity lie?
+image: cover-dreamers.png
+title: "The Dreamers"
+#bibliography: references.bib
+comments:
+    giscus:
+        repo: aelmokadem/aelmokadem
+draft: false
+---
+
+
+# The Dreamers (Arabic)
+
+[https://www.jarir.com/arabic-books-jbb6720na092.html](https://www.jarir.com/arabic-books-jbb6720na092.html)
+
+**The English version is coming out soon so stay tuned!**
+
+<!-- ![](cover-dreamers.png){width=200} -->

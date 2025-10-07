@@ -1,0 +1,350 @@
+@ARTICLE{Elmokadem2024-zg,
+  title     = "Hierarchical deep compartment modeling: A workflow to leverage
+               machine learning and Bayesian inference for hierarchical
+               pharmacometric modeling",
+  author    = "Elmokadem, Ahmed and Wiens, Matthew and Knab, Timothy and Utsey,
+               Kiersten and Callisto, Samuel P and Kirouac, Daniel",
+  journal   = "Clin. Transl. Sci.",
+  publisher = "Wiley",
+  volume    =  17,
+  number    =  10,
+  pages     = "e70045",
+  abstract  = "Population pharmacokinetic (PK) modeling serves as the
+               cornerstone for understanding drug behavior within a specific
+               population. It integrates subject covariates to elucidate the
+               variability in PK parameters, thus enhancing predictive accuracy.
+               However, covariate modeling within this framework can be
+               intricate and time-consuming due to the often obscure structural
+               relationship between covariates and PK parameters. Previous
+               attempts, such as deep compartment modeling (DCM), aimed to
+               streamline this process using machine learning techniques.
+               Nonetheless, DCM fell short in assessing residual errors and
+               interindividual variability (IIV), potentially leading to model
+               misspecification and overfitting. Furthermore, DCM lacked the
+               ability to quantify model uncertainty. To address these
+               limitations, we introduce hierarchical deep compartment modeling
+               (HDCM) as an advancement of DCM. HDCM harnesses machine learning
+               to discern the interplay between covariates and PK parameters
+               while simultaneously evaluating diverse levels of random effects
+               and quantifying uncertainty through Bayesian inference. This
+               tutorial provides a comprehensive application of the HDCM
+               workflow using open-source Julia tools.",
+  month     =  oct,
+  year      =  2024,
+  language  = "en"
+}
+
+@ARTICLE{Elmokadem2023-qe,
+  title    = "Bayesian {PBPK} modeling using {R}/Stan/Torsten and
+              Julia/{SciML}/Turing.Jl",
+  author   = "Elmokadem, Ahmed and Zhang, Yi and Knab, Timothy and Jordie, Eric
+              and Gillespie, William R",
+  journal  = "CPT Pharmacometrics Syst Pharmacol",
+  volume   =  12,
+  number   =  3,
+  pages    = "300--310",
+  abstract = "Physiologically-based pharmacokinetic (PBPK) models are
+              mechanistic models that are built based on an investigator's prior
+              knowledge of the in vivo system of interest. Bayesian inference
+              incorporates an investigator's prior knowledge of parameters while
+              using the data to update this knowledge. As such, Bayesian tools
+              are well-suited to infer PBPK model parameters using the strong
+              prior knowledge available while quantifying the uncertainty on
+              these parameters. This tutorial demonstrates a full population
+              Bayesian PBPK analysis framework using R/Stan/Torsten and
+              Julia/SciML/Turing.jl.",
+  month    =  mar,
+  year     =  2023,
+  language = "en"
+}
+
+@ARTICLE{Elmokadem2022-vp,
+  title    = "Brexpiprazole Pharmacokinetics in {CYP2D6} Poor Metabolizers:
+              Using Physiologically Based Pharmacokinetic Modeling to Optimize
+              Time to Effective Concentrations",
+  author   = "Elmokadem, Ahmed and Bruno, Christopher D and Housand, Conrad and
+              Jordie, Eric Burroughs and Chow, Christina R and Lesko, Lawrence J
+              and Greenblatt, David J",
+  journal  = "J. Clin. Pharmacol.",
+  volume   =  62,
+  number   =  1,
+  pages    = "66--75",
+  abstract = "Brexpiprazole is an oral antipsychotic agent indicated for use in
+              patients with schizophrenia, or as adjunctive treatment for major
+              depressive disorder. As cytochrome P450 (CYP) 2D6 contributes
+              significantly to brexpiprazole metabolism, there is a
+              label-recommended 50\% reduction in dose among patients with the
+              CYP2D6 poor metabolizer phenotype. This study uses a whole-body
+              physiologically based pharmacokinetic (PBPK) model to compare the
+              pharmacokinetics of brexpiprazole in patients known to be
+              extensive metabolizers (EMs) and poor metabolizers (PMs). A PBPK
+              model was constructed, verified, and validated against
+              brexpiprazole clinical data, and simulations of 500 subjects were
+              performed to establish the median time to effective concentrations
+              in EMs and PMs. The PBPK simulations captured brexpiprazole PK
+              well and demonstrated significant differences in the time to
+              effective concentrations between EMs and PMs according to the
+              label-recommended titration. Additionally, these simulations
+              suggest that CYP2D6 PMs consistently achieve lower minimum
+              concentrations during the dosing interval than CYP2D6 EMs.
+              Simulations using an alternative dosing strategy of twice-daily
+              dosing (as opposed to once daily) in PMs during the first week of
+              brexpiprazole dosing yielded more consistent plasma concentrations
+              between EMs and PMs, without exceeding the area under the plasma
+              concentration-time curve observed in the EMs. Taken together, the
+              results of these PBPK simulations suggest that product labeling
+              for brexpiprazole titration in CYP2D6 PMs likely overcompensates
+              for the decreased clearance seen in this population. We propose an
+              alternative dosing strategy that decreases the time to effective
+              concentrations and recommend a reevaluation of steady-state PK in
+              this population to potentially allow for higher daily doses in
+              CYP2D6 PMs.",
+  month    =  jan,
+  year     =  2022,
+  keywords = "CYP2D6; PBPK; brexpiprazole; pharmacogenetics/pharmacogenomics;
+              pharmacometrics",
+  language = "en"
+}
+
+@ARTICLE{Chigutsa2022-wu,
+  title    = "A Quantitative Modeling and Simulation Framework to Support
+              Candidate and Dose Selection of Anti-{SARS}-{CoV}-2 Monoclonal
+              Antibodies to Advance Bamlanivimab Into a First-in-Human Clinical
+              Trial",
+  author   = "Chigutsa, Emmanuel and Jordie, Eric and Riggs, Matthew and Nirula,
+              Ajay and Elmokadem, Ahmed and Knab, Tim and Chien, Jenny Y",
+  journal  = "Clin. Pharmacol. Ther.",
+  volume   =  111,
+  number   =  3,
+  pages    = "595--604",
+  abstract = "Neutralizing monoclonal antibodies (mAb), novel therapeutics for
+              the treatment of coronavirus disease 2019 (COVID-19) caused by
+              severe acute respiratory syndrome-coronavirus 2 (SARS-CoV-2), have
+              been urgently researched from the start of the pandemic. The
+              selection of the optimal mAb candidate and therapeutic dose were
+              expedited using open-access in silico models. The maximally
+              effective therapeutic mAb dose was determined through two
+              approaches; both expanded on innovative, open-science initiatives.
+              A physiologically-based pharmacokinetic (PBPK) model,
+              incorporating physicochemical properties predictive of mAb
+              clearance and tissue distribution, was used to estimate mAb
+              exposure that maintained concentrations above 90\% inhibitory
+              concentration of in vitro neutralization in lung tissue for up to
+              4 weeks in 90\% of patients. To achieve fastest viral clearance
+              following onset of symptoms, a longitudinal SARS-CoV-2 viral
+              dynamic model was applied to estimate viral clearance as a
+              function of drug concentration and dose. The PBPK model-based
+              approach suggested that a clinical dose between 175 and 500 mg of
+              bamlanivimab would maintain target mAb concentrations in the lung
+              tissue over 28 days in 90\% of patients. The viral dynamic model
+              suggested a 700 mg dose would achieve maximum viral elimination.
+              Taken together, the first-in-human trial (NCT04411628)
+              conservatively proceeded with a starting therapeutic dose of 700
+              mg and escalated to higher doses to evaluate the upper limit of
+              safety and tolerability. Availability of open-access codes and
+              application of novel in silico model-based approaches supported
+              the selection of bamlanivimab and identified the lowest dose
+              evaluated in this study that was expected to result in the maximum
+              therapeutic effect before the first-in-human clinical trial.",
+  month    =  mar,
+  year     =  2022,
+  language = "en"
+}
+
+@ARTICLE{Bruno2022-dm,
+  title    = "Impact of Obesity on Brexpiprazole Pharmacokinetics: Proposal for
+              Improved Initiation of Treatment",
+  author   = "Bruno, Christopher D and Elmokadem, Ahmed and Housand, Conrad and
+              Jordie, Eric Burroughs and Chow, Christina R and Laughren, Thomas
+              P and Greenblatt, David J",
+  journal  = "J. Clin. Pharmacol.",
+  volume   =  62,
+  number   =  1,
+  pages    = "55--65",
+  abstract = "Brexpiprazole is an oral antipsychotic agent indicated for use in
+              patients with schizophrenia or as adjunctive treatment for major
+              depressive disorder. As obesity (body mass index ≥35 kg/m2 ) has
+              the potential to affect drug pharmacokinetics and is a common
+              comorbidity of both schizophrenia and major depressive disorder,
+              it is important to understand changes in brexpiprazole disposition
+              in this population. This study uses a whole-body physiologically
+              based pharmacokinetic model to compare the pharmacokinetics of
+              brexpiprazole in obese and normal-weight (body mass index 18-25
+              kg/m2 ) individuals known to be cytochrome P450 2D6 extensive
+              metabolizers (EMs) and poor metabolizers (PMs). The
+              physiologically based pharmacokinetic simulations demonstrated
+              significant differences in the time to effective concentrations
+              between obese and normal-weight individuals within metabolizer
+              groups according to the label-recommended titration. Simulations
+              using an alternative dosing strategy of 1 week of twice-daily
+              dosing in obese EMs or 2 weeks of twice-daily dosing in obese poor
+              metabolizers, followed by a return to once-daily dosing, yielded
+              more consistent plasma concentrations between normal-weight and
+              obese patients without exceeding the area under the plasma
+              concentration-time curve observed in the normal-weight EMs. These
+              alternative dosing strategies reduce the time to effective
+              concentrations in obese patients and may improve clinical response
+              to brexpiprazole.",
+  month    =  jan,
+  year     =  2022,
+  keywords = "PBPK; brexpiprazole; obesity; pharmacokinetics and drug
+              metabolism; special populations",
+  language = "en"
+}
+
+@ARTICLE{Johnston_undated-rz,
+  title  = "A Model-Informed Drug Development ({MIDD}) Approach for a Low Dose
+            of Empagliflozin in Patients with Type 1 Diabetes",
+  author = "Johnston, Curtis K and Eudy-Byrne, Rena J and Elmokadem, Ahmed and
+            Nock, Valerie and Marquard, Jan and Soleymanlou, Nima and Riggs,
+            Matthew M and Liesenfeld, Karl-Heinz"
+}
+
+@ARTICLE{Perkins2020-ur,
+  title    = "Low-dose empagliflozin as adjunct-to-insulin therapy in type 1
+              diabetes: A valid modelling and simulation analysis to confirm
+              efficacy",
+  author   = "Perkins, Bruce A and Soleymanlou, Nima and Rosenstock, Julio and
+              Skyler, Jay S and Laffel, Lori M and Liesenfeld, Karl-Heinz and
+              Neubacher, Dietmar and Riggs, Matthew M and Johnston, Curtis K and
+              Eudy-Byrne, Rena J and Elmokadem, Ahmed and George, Jyothis T and
+              Marquard, Jan and Nock, Valerie",
+  journal  = "Diabetes Obes. Metab.",
+  volume   =  22,
+  number   =  3,
+  pages    = "427--433",
+  abstract = "AIM: To confirm the observed reduction in HbA1c for the 2.5 mg
+              dose in EASE-3 by modelling and simulation analyses. MATERIALS AND
+              METHODS: Independent of data from EASE-3 that tested 2.5 mg, we
+              simulated the effect of a 2.5 mg dose through patient-level,
+              exposure-response modelling in the EASE-2 clinical study. A
+              primary semi-mechanistic model evaluated efficacy considering
+              clinical insulin dose adjustments made after treatment initiation
+              that potentially limited HbA1c reductions. The model was informed
+              by pharmacokinetic, insulin dose, mean daily glucose and HbA1c
+              data, and was verified by comparing the simulations with the
+              observed HbA1c change in EASE-3. One of two empagliflozin phase 3
+              trials in type 1 diabetes (EASE-3 but not EASE-2) included a lower
+              2.5 mg dose. A placebo-corrected HbA1c reduction of 0.28\% was
+              demonstrated without the increased risk of diabetic ketoacidosis
+              observed at higher doses (10 mg and 25 mg). Since only one trial
+              included the lower dose, we aimed to confirm the observed
+              reduction in HbA1c for the 2.5 mg dose by modelling and simulation
+              analyses. RESULTS: The simulated 26-week mean HbA1c change was
+              -0.41\% without insulin dose adjustment and -0.29\% at 26 weeks
+              with insulin dose adjustment. A simplified (descriptive) model
+              excluding insulin dose and mean daily glucose confirmed the
+              -0.29\% HbA1c change that would have been observed had the EASE-2
+              population received a 2.5 mg dose for 26/52 weeks. CONCLUSIONS:
+              The HbA1c benefit of low-dose empagliflozin directly observed in
+              the EASE-3 trial was confirmed by two modelling and simulation
+              approaches.",
+  month    =  mar,
+  year     =  2020,
+  keywords = "antidiabetic drug; dose-response relationship; empagliflozin;
+              sodium-glucose co-transporter-2 inhibitor; type 1 diabetes",
+  language = "en"
+}
+
+@ARTICLE{Utsey2020-wd,
+  title    = "Quantification of the Impact of Partition Coefficient Prediction
+              Methods on {PBPK} Model Output Using a Standardized Tissue
+              Composition",
+  author   = "Utsey, Kiersten and Gastonguay, Madeleine S and Russell, Sean and
+              Freling, Reed and Riggs, Matthew M and Elmokadem, Ahmed",
+  journal  = "Drug Metab. Dispos.",
+  abstract = "Tissue:plasma partition coefficients are key parameters in
+              physiologically-based pharmacokinetic (PBPK) models, yet the
+              coefficients are challenging to measure in vivo. Several
+              mechanistic-based equations have been developed to predict
+              partition coefficients using tissue composition information and
+              the compound's physicochemical properties, but it is not clear
+              which, if any, of the methods is most appropriate under given
+              circumstances. Complicating the evaluation, each prediction method
+              was developed, and is typically employed, using a different set of
+              tissue composition information; thereby making a controlled
+              comparison impossible. This study proposed a standardized tissue
+              composition for humans that can be used as a common input for each
+              of the five frequently used prediction methods. These methods were
+              implemented in R and were used to predict partition coefficients
+              for 11 drugs, classified as strong bases, weak bases, acids,
+              neutrals, and zwitterions. PBPK models developed in R (mrgsolve)
+              for each drug and each set of partition coefficient predictions
+              were compared to respective observed plasma concentration data.
+              Percent RMSE, AUC percent error, and half-life percent error were
+              used to evaluate the accuracy of the PBPK model predictions using
+              each partition coefficient method as summarized by strong bases,
+              weak bases, acids, neutrals, and zwitterions characterization. The
+              analysis indicated that no partition coefficient method
+              consistently yielded the most accurate PBPK model predictions. As
+              such, PBPK model predictions using all partition coefficient
+              methods should be considered during drug development. SIGNIFICANCE
+              STATEMENT: Several mechanistic-based methods exist to predict
+              tissue:plasma partition coefficients critical to PBPK modeling.
+              Controlled comparisons are confounded by the use of different
+              tissue composition values for each method; a standardized tissue
+              composition was proposed. Resulting assessments indicated that no
+              method was consistently superior; therefore, sensitivity of PBPK
+              predictions to each method may be warranted prior to model
+              optimization.",
+  month    =  jul,
+  year     =  2020,
+  keywords = "clinical pharmacology; modeling and simulation; pharmacokinetics;
+              physiologically-based pharmacokinetic modeling/PBPK",
+  language = "en"
+}
+
+@ARTICLE{Yu2019-wf,
+  title    = "Single-molecule localization microscopy as nonlinear inverse
+              problem",
+  author   = "Yu, Ji and Elmokadem, Ahmed",
+  journal  = "Proc. Natl. Acad. Sci. U. S. A.",
+  volume   =  116,
+  number   =  41,
+  pages    = "20438--20445",
+  abstract = "We present a statistical framework to model the spatial
+              distribution of molecules based on a single-molecule localization
+              microscopy (SMLM) dataset. The latter consists of a collection of
+              spatial coordinates and their associated uncertainties. We
+              describe iterative parameter-estimation algorithms based on this
+              framework, as well as a sampling algorithm to numerically evaluate
+              the complete posterior distribution. We demonstrate that the
+              inverse computation can be viewed as a type of image restoration
+              process similar to the classical image deconvolution methods,
+              except that it is performed on SMLM images. We further discuss an
+              application of our statistical framework in the task of particle
+              fusion using SMLM data. We show that the fusion algorithm based on
+              our model outperforms the current state-of-the-art in terms of
+              both accuracy and computational cost.",
+  month    =  oct,
+  year     =  2019,
+  keywords = "particle fusion; single-molecule localization; statistical
+              modeling; superresolution microscopy",
+  language = "en"
+}
+
+@ARTICLE{Elmokadem2015-fc,
+  title    = "Optimal Drift Correction for Superresolution Localization
+              Microscopy with Bayesian Inference",
+  author   = "Elmokadem, Ahmed and Yu, Ji",
+  journal  = "Biophys. J.",
+  volume   =  109,
+  number   =  9,
+  pages    = "1772--1780",
+  abstract = "Single-molecule-localization-based superresolution microscopy
+              requires accurate sample drift correction to achieve good results.
+              Common approaches for drift compensation include using fiducial
+              markers and direct drift estimation by image correlation. The
+              former increases the experimental complexity and the latter
+              estimates drift at a reduced temporal resolution. Here, we
+              present, to our knowledge, a new approach for drift correction
+              based on the Bayesian statistical framework. The technique has the
+              advantage of being able to calculate the drifts for every image
+              frame of the data set directly from the single-molecule
+              coordinates. We present the theoretical foundation of the
+              algorithm and an implementation that achieves significantly higher
+              accuracy than image-correlation-based estimations.",
+  month    =  nov,
+  year     =  2015,
+  language = "en"
+}
